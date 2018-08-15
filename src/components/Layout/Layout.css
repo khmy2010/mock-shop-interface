@@ -1,0 +1,28 @@
+html, body, #root {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    height: auto !important;
+    margin-bottom: -310px;
+}
+
+.push {
+    height: 310px;
+}
+
+.tom {
+    height: 3000px;
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        margin-bottom: -1030px;
+    }
+
+    .push {
+        height: 1030px;
+    }
+}

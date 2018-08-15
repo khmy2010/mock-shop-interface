@@ -1,0 +1,20 @@
+.breadcrumb,
+.breadcrumb > span {
+    color: #414549;
+}
+
+.breadcrumb > span {
+    cursor: pointer;
+}
+
+.breadcrumb > span:not(:first-child) {
+    margin: 0 15px;
+}
+
+.breadcrumb > span:first-child {
+    margin-right: 15px;
+}
+
+.breadcrumb > span.breadcrumb-active {
+    color: rgb(190, 107, 0);
+}

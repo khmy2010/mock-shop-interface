@@ -7,7 +7,7 @@ import Search from './Search';
 import Cart from './Cart';
 
 const header = () => (
-    <nav className="header">
+    <nav className="header content">
         <div className="logo">
             <Logo />
         </div>
