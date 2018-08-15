@@ -33,6 +33,12 @@ class Product extends Component {
             <div className="product">
                 <div className="product-image">
                     <img src={image} alt="270x357" />
+                    {latest ? (
+                        <div className="product-strip-new">new</div>
+                    ) : null}
+                    {sale ? (
+                        <div className="product-strip-sale">sale!</div>
+                    ) : null}
                 </div>
                 <p className="product-name">{name}</p>
                 <div className="product-info">
