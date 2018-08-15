@@ -1,0 +1,9 @@
+.rating-star {
+    cursor: pointer;
+    color: #d3d3d3;
+    user-select: none;
+}
+
+.rating-star-rated {
+    color: rgb(188, 105, 0);
+}

@@ -1,0 +1,24 @@
+.product-image > img {
+    width: 270px;
+    height: 357px;
+    border-radius: 3px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.product-name {
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: rgb(188, 105, 0);
+    font-weight: 700;
+}
+
+.product-rating > span:not(:last-child) {
+    margin-right: 1.5px;
+}

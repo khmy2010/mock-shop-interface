@@ -1,0 +1,24 @@
+.sales-banner > img {
+    width: 870px;
+    height: 260px;
+}
+
+.sales-category-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sales-category-info > h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 80px;
+}
