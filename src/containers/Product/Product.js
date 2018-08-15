@@ -4,6 +4,7 @@ import './Product.css';
 
 import image from '../../assets/images/270x357.png';
 import Star from '../../components/Star/Star';
+import Price from './Price';
 
 class Product extends Component {
     state = {
@@ -43,7 +44,7 @@ class Product extends Component {
                 <p className="product-name">{name}</p>
                 <div className="product-info">
                     <div className="product-rating">{stars}</div>
-                    <span className="product-price">&#163; {price}</span>
+                    <Price discounted={discounted} price={price} />
                 </div>
             </div>
         );

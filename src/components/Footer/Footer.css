@@ -29,6 +29,12 @@ footer {
     margin: 20px 0;
 }
 
+@media (max-width: 560px) {
+    footer {
+        height: 360px;
+    }
+}
+
 @media (max-width: 480px) {
     .footer-container {
         display: flex;

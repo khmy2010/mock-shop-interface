@@ -14,10 +14,28 @@ body,
 main {
     max-width: 95%;
     margin-bottom: 50px;
+    padding: 30px;
 }
 
 .push {
     height: 310px;
+}
+
+@media (max-width: 870px) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .wrapper {
+        margin-bottom: -360px;
+    }
+
+    .push {
+        height: 360px;
+    }
 }
 
 @media (max-width: 480px) {

@@ -4,7 +4,7 @@ import './Layout.css';
 
 const layout = ({ children }) => (
     <React.Fragment>
-        <main className="content">{children}</main>
+        <main>{children}</main>
         <div className="push" />
     </React.Fragment>
 );
