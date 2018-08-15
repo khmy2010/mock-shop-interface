@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Layout from './components/Layout/Layout';
 import Breadcrumb from './components/Breadcrumb/Breadcrumb';
 import Footer from './components/Footer/Footer';
+import Container from './components/Container/Container';
 
 class App extends Component {
     render() {
@@ -17,6 +18,7 @@ class App extends Component {
                         <Header />
                         <Layout>
                             <Breadcrumb />
+                            <Container />
                         </Layout>
                     </div>
                     <Footer />

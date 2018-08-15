@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
     height: 100%;
 }
 
@@ -9,12 +11,13 @@ html, body, #root {
     margin-bottom: -310px;
 }
 
-.push {
-    height: 310px;
+main {
+    max-width: 95%;
+    margin-bottom: 50px;
 }
 
-.tom {
-    height: 3000px;
+.push {
+    height: 310px;
 }
 
 @media (max-width: 480px) {
