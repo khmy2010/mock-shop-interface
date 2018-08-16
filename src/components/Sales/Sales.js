@@ -5,6 +5,7 @@ import './Sales.css';
 
 import image from '../../assets/images/870x260.png';
 import Product from '../../containers/Product/Product';
+import Viewbar from '../../containers/Viewbar/Viewbar';
 
 const sales = () => (
     <div className="sales-container">
@@ -15,6 +16,7 @@ const sales = () => (
             <h3>Bedroom</h3>
             <span>There are 7 products.</span>
         </div>
+        <Viewbar />
         <div className="products">
             <Product name="Printed Dress" price="61.19" latest />
             <Product

@@ -15,3 +15,7 @@ html {
 .content {
     padding: 20px;
 }
+
+img {
+    user-select: none;
+}

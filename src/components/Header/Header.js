@@ -1,15 +1,13 @@
 import React from 'react';
 
 import './Header.css';
-
-import Logo from './Logo';
 import Search from './Search';
 import Cart from './Cart';
 
 const header = () => (
     <nav className="header content">
         <div className="logo">
-            <Logo />
+            <h1>Shoppertise</h1>
         </div>
         <div className="actions">
             <Search />

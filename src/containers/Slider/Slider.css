@@ -1,0 +1,30 @@
+/* Credits: https://www.w3schools.com/howto/howto_js_rangeslider.asp */
+
+.slider-wrapper {
+    width: 100%;
+}
+
+.slider {
+    appearance: none;
+    width: 100%;
+    outline: none;
+    height: 25px;
+    background: #d3d3d3;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 1px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #999999;
+    cursor: pointer;
+}
